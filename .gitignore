@@ -7,4 +7,6 @@
 *.log
 *.bcf
 *.aux
+./chapters/*.aux
 *.xml
+*.out
