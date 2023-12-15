@@ -1,3 +1,21 @@
-\begin{appendices}
-	\chapter{}
-\end{appendices}
+%\begin{appendices}
+%	\chapter{}
+%\end{appendices}
+\chapter*{СПИСОК ЛИТЕРАТУРЫ}
+\addcontentsline{toc}{chapter}{СПИСОК ЛИТЕРАТУРЫ}
+
+\newlist{myitems}{enumerate}{1}
+\setlist[myitems, 1]
+{label=[\arabic{myitemsi}], %1., 2., 3., ...
+ leftmargin=\parindent,
+ rightmargin=14pt
+}
+
+\begin{myitems}
+	\item Компьютерное зрение. Теория и алгоритмы - автор Р. Клетте
+	\item Цифровая обработка изображений - авторы Р. Гонсалес, Р. Вудс, С. Эддинс
+	\item МИР цифровой обработки. Цифровая обработка изображений - автор Б. Яне
+	\item Практические рекомендации по разработке печатных плат - автор С. Тютюков
+	\item Reference manual 0090 STM32F405/415, STM32F407/417, STM32F427/437 and STM32F429/439 advanced Arm®-based 32-bit MCUs
+	\item Полупроводниковая схемотехника. Том 1 и 2 - авторы У. Титце, К. Шенк
+\end{myitems}
