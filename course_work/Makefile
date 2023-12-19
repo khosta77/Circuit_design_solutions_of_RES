@@ -1,8 +1,8 @@
-PROJECT=TechnoparkMedkit
+PROJECT=coursework
 TEX=pdflatex
 BUILDTEX=$(TEX) $(PROJECT).tex
 LATEX_CMD=pdflatex
-TARGET=Technopark
+TARGET=coursework
 
 all: $(TARGET).pdf
 
